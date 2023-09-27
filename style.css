@@ -1,0 +1,25 @@
+/*En CSS se utilizan clases para definir los atributos*/
+/*Las clases tiene la arquitectura siguiente*/
+
+@font-face {
+  font-family: 'chaletnewyorknineteeneighty';
+  src: url('./src/fonts/Chalet\ NewYorkNineteenEighty.otf');
+}
+
+h1 {
+  font-family: chaletnewyorknineteeneighty, Arial, Helvetica, sans-serif;
+  color: rgb(244, 211, 71);
+  background-color: rgb(78, 124, 195);
+}
+
+h2 {
+  font-family: chaletnewyorknineteeneighty, Arial, Helvetica, sans-serif;
+  color: #685723;
+  background-color: #fdd306;
+}
+
+
+
+.colorFondoMain {
+  background-color: #f9f0c1;
+}
